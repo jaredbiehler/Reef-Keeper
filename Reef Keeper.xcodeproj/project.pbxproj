@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4BC43F314EF41D400BC4FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BC43F214EF41D400BC4FEC /* UIKit.framework */; };
+		E4BC43F514EF41D400BC4FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BC43F414EF41D400BC4FEC /* Foundation.framework */; };
+		E4BC43F714EF41D400BC4FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BC43F614EF41D400BC4FEC /* CoreGraphics.framework */; };
+		E4BC43F914EF41D400BC4FEC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BC43F814EF41D400BC4FEC /* CoreData.framework */; };
+		E4BC43FF14EF41D400BC4FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4BC43FD14EF41D400BC4FEC /* InfoPlist.strings */; };
+		E4BC440114EF41D400BC4FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC440014EF41D400BC4FEC /* main.m */; };
+		E4BC440514EF41D400BC4FEC /* ReefKeeperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC440414EF41D400BC4FEC /* ReefKeeperAppDelegate.m */; };
+		E4BC440814EF41D400BC4FEC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BC440614EF41D400BC4FEC /* MainStoryboard_iPhone.storyboard */; };
+		E4BC440B14EF41D400BC4FEC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BC440914EF41D400BC4FEC /* MainStoryboard_iPad.storyboard */; };
+		E4BC440E14EF41D400BC4FEC /* Reef_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4BC440C14EF41D400BC4FEC /* Reef_Keeper.xcdatamodeld */; };
+		E4BC441114EF41D400BC4FEC /* ReefKeeperMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC441014EF41D400BC4FEC /* ReefKeeperMasterViewController.m */; };
+		E4BC441414EF41D400BC4FEC /* ReefKeeperDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC441314EF41D400BC4FEC /* ReefKeeperDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4BC43EE14EF41D400BC4FEC /* Reef Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reef Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BC43F214EF41D400BC4FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4BC43F414EF41D400BC4FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4BC43F614EF41D400BC4FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4BC43F814EF41D400BC4FEC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E4BC43FC14EF41D400BC4FEC /* Reef Keeper-Info.plist */ = {isa = PBXFileReference; path = "Reef Keeper-Info.plist"; sourceTree = "<group>"; };
+		E4BC43FE14EF41D400BC4FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4BC440014EF41D400BC4FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4BC440214EF41D400BC4FEC /* Reef Keeper-Prefix.pch */ = {isa = PBXFileReference; path = "Reef Keeper-Prefix.pch"; sourceTree = "<group>"; };
+		E4BC440314EF41D400BC4FEC /* ReefKeeperAppDelegate.h */ = {isa = PBXFileReference; path = ReefKeeperAppDelegate.h; sourceTree = "<group>"; };
+		E4BC440414EF41D400BC4FEC /* ReefKeeperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReefKeeperAppDelegate.m; sourceTree = "<group>"; };
+		E4BC440714EF41D400BC4FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E4BC440A14EF41D400BC4FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E4BC440D14EF41D400BC4FEC /* Reef_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Reef_Keeper.xcdatamodel; sourceTree = "<group>"; };
+		E4BC440F14EF41D400BC4FEC /* ReefKeeperMasterViewController.h */ = {isa = PBXFileReference; path = ReefKeeperMasterViewController.h; sourceTree = "<group>"; };
+		E4BC441014EF41D400BC4FEC /* ReefKeeperMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReefKeeperMasterViewController.m; sourceTree = "<group>"; };
+		E4BC441214EF41D400BC4FEC /* ReefKeeperDetailViewController.h */ = {isa = PBXFileReference; path = ReefKeeperDetailViewController.h; sourceTree = "<group>"; };
+		E4BC441314EF41D400BC4FEC /* ReefKeeperDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReefKeeperDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4BC43EB14EF41D400BC4FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BC43F314EF41D400BC4FEC /* UIKit.framework in Frameworks */,
+				E4BC43F514EF41D400BC4FEC /* Foundation.framework in Frameworks */,
+				E4BC43F714EF41D400BC4FEC /* CoreGraphics.framework in Frameworks */,
+				E4BC43F914EF41D400BC4FEC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4BC43E314EF41D300BC4FEC = {
+			isa = PBXGroup;
+			children = (
+				E4BC43FA14EF41D400BC4FEC /* Reef Keeper */,
+				E4BC43F114EF41D400BC4FEC /* Frameworks */,
+				E4BC43EF14EF41D400BC4FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4BC43EF14EF41D400BC4FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC43EE14EF41D400BC4FEC /* Reef Keeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4BC43F114EF41D400BC4FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC43F214EF41D400BC4FEC /* UIKit.framework */,
+				E4BC43F414EF41D400BC4FEC /* Foundation.framework */,
+				E4BC43F614EF41D400BC4FEC /* CoreGraphics.framework */,
+				E4BC43F814EF41D400BC4FEC /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BC43FA14EF41D400BC4FEC /* Reef Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC440314EF41D400BC4FEC /* ReefKeeperAppDelegate.h */,
+				E4BC440414EF41D400BC4FEC /* ReefKeeperAppDelegate.m */,
+				E4BC440614EF41D400BC4FEC /* MainStoryboard_iPhone.storyboard */,
+				E4BC440914EF41D400BC4FEC /* MainStoryboard_iPad.storyboard */,
+				E4BC440F14EF41D400BC4FEC /* ReefKeeperMasterViewController.h */,
+				E4BC441014EF41D400BC4FEC /* ReefKeeperMasterViewController.m */,
+				E4BC441214EF41D400BC4FEC /* ReefKeeperDetailViewController.h */,
+				E4BC441314EF41D400BC4FEC /* ReefKeeperDetailViewController.m */,
+				E4BC440C14EF41D400BC4FEC /* Reef_Keeper.xcdatamodeld */,
+				E4BC43FB14EF41D400BC4FEC /* Supporting Files */,
+			);
+			path = "Reef Keeper";
+			sourceTree = "<group>";
+		};
+		E4BC43FB14EF41D400BC4FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC43FC14EF41D400BC4FEC /* Reef Keeper-Info.plist */,
+				E4BC43FD14EF41D400BC4FEC /* InfoPlist.strings */,
+				E4BC440014EF41D400BC4FEC /* main.m */,
+				E4BC440214EF41D400BC4FEC /* Reef Keeper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4BC43ED14EF41D400BC4FEC /* Reef Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BC441714EF41D400BC4FEC /* Build configuration list for PBXNativeTarget "Reef Keeper" */;
+			buildPhases = (
+				E4BC43EA14EF41D400BC4FEC /* Sources */,
+				E4BC43EB14EF41D400BC4FEC /* Frameworks */,
+				E4BC43EC14EF41D400BC4FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reef Keeper";
+			productName = "Reef Keeper";
+			productReference = E4BC43EE14EF41D400BC4FEC /* Reef Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4BC43E514EF41D300BC4FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E4BC43E814EF41D300BC4FEC /* Build configuration list for PBXProject "Reef Keeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4BC43E314EF41D300BC4FEC;
+			productRefGroup = E4BC43EF14EF41D400BC4FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4BC43ED14EF41D400BC4FEC /* Reef Keeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4BC43EC14EF41D400BC4FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BC43FF14EF41D400BC4FEC /* InfoPlist.strings in Resources */,
+				E4BC440814EF41D400BC4FEC /* MainStoryboard_iPhone.storyboard in Resources */,
+				E4BC440B14EF41D400BC4FEC /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4BC43EA14EF41D400BC4FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BC440114EF41D400BC4FEC /* main.m in Sources */,
+				E4BC440514EF41D400BC4FEC /* ReefKeeperAppDelegate.m in Sources */,
+				E4BC440E14EF41D400BC4FEC /* Reef_Keeper.xcdatamodeld in Sources */,
+				E4BC441114EF41D400BC4FEC /* ReefKeeperMasterViewController.m in Sources */,
+				E4BC441414EF41D400BC4FEC /* ReefKeeperDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4BC43FD14EF41D400BC4FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BC43FE14EF41D400BC4FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4BC440614EF41D400BC4FEC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BC440714EF41D400BC4FEC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E4BC440914EF41D400BC4FEC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4BC440A14EF41D400BC4FEC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4BC441514EF41D400BC4FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4BC441614EF41D400BC4FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4BC441814EF41D400BC4FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reef Keeper/Reef Keeper-Prefix.pch";
+				INFOPLIST_FILE = "Reef Keeper/Reef Keeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4BC441914EF41D400BC4FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reef Keeper/Reef Keeper-Prefix.pch";
+				INFOPLIST_FILE = "Reef Keeper/Reef Keeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4BC43E814EF41D300BC4FEC /* Build configuration list for PBXProject "Reef Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BC441514EF41D400BC4FEC /* Debug */,
+				E4BC441614EF41D400BC4FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BC441714EF41D400BC4FEC /* Build configuration list for PBXNativeTarget "Reef Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BC441814EF41D400BC4FEC /* Debug */,
+				E4BC441914EF41D400BC4FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4BC440C14EF41D400BC4FEC /* Reef_Keeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4BC440D14EF41D400BC4FEC /* Reef_Keeper.xcdatamodel */,
+			);
+			currentVersion = E4BC440D14EF41D400BC4FEC /* Reef_Keeper.xcdatamodel */;
+			path = Reef_Keeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4BC43E514EF41D300BC4FEC /* Project object */;
+}
